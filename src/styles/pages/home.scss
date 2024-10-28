@@ -1,0 +1,13 @@
+.hidden {
+  transform: translateY(60px);
+  opacity: 0;
+  // transition: ease all 0.8s;
+  stroke-dashoffset: calc(-2 * 3.14159 * 20); /* Circumference of the circle */
+}
+
+.show {
+  transition: ease all 0.8s;
+  transform: translateY(00px);
+  opacity: 1;
+  stroke-dashoffset: 0; /* Initial offset */
+}
