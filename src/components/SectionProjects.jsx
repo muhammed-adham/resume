@@ -78,7 +78,7 @@ const SectionProjects = () => {
                 <FaFigma />
               </div>
               <div className="pic">
-                <img src="./src/assets/images/silver.png" alt="" />
+                <img src="../src/assets/images/silver.png" alt="" />
               </div>
               <div className="title">UX-UI</div>
               <div className="desc">
