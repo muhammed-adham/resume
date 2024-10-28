@@ -33,7 +33,7 @@ const SectionProjects = () => {
                 <FaSass />
               </div>
               <div className="pic">
-                <img src="./src/assets/images/artist-pp.jpg" alt="" />
+                <img src="/artist-pp.jpg" alt="" />
               </div>
               <div className="title">Theme Transitions.</div>
               <div className="desc">Dynamic theme switch animation.</div>
@@ -55,7 +55,7 @@ const SectionProjects = () => {
                 <FaNodeJs />
               </div>
               <div className="pic">
-                <img src="./src/assets/images/ogme.png" alt="" />
+                <img src="/ogme.png" alt="" />
               </div>
               <div className="title">E-commerce web app.</div>
               <div className="desc">
@@ -78,7 +78,7 @@ const SectionProjects = () => {
                 <FaFigma />
               </div>
               <div className="pic">
-                <img src="/src/assets/images/silver.png" alt="" />
+                <img src="/silver.png" alt="" />
               </div>
               <div className="title">UX-UI</div>
               <div className="desc">
