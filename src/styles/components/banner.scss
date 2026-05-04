@@ -1,0 +1,63 @@
+.main-banner {
+  background-image: radial-gradient(60% 40% at 90% 30%, #1b1b1b, black);
+  position: relative;
+  top: 0;
+  height: 100dvh;
+  .title {
+    position: absolute;
+    top: 40%;
+    right: 2rem;
+    width: fit-content;
+    max-width: 690px;
+    transform: translate(-2%, -50%);
+    text-align: left;
+
+    h1 {
+      background-image: linear-gradient(90deg, #ff0000, #0713f2);
+      background-clip: text;
+      color: transparent;
+    }
+    h2 {
+      transition-delay: 0.1s;
+      letter-spacing: 0.98rem;
+    }
+    p {
+      transition-delay: 0.2s;
+    }
+    .btns-container {
+      transition-delay: 0.3s;
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+
+      .btn-resume {
+        cursor: pointer;
+        background: linear-gradient(90deg, #ff0000, #ff0000, white, white);
+        background-size: 300%;
+        background-position: left;
+        padding: 0.5rem 1rem;
+        width: fit-content;
+        text-transform: capitalize;
+        font-weight: 600;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 0.6rem;
+        font-size: 1.2rem;
+        border-radius: 0.6rem;
+        transition: all 0.4s;
+        svg {
+          color: black;
+          font-size: 1.6rem;
+          font-weight: bolder;
+          stroke-width: 0.6;
+          stroke: black;
+          opacity: 1;
+        }
+        &:hover {
+          background-position: right;
+        }
+      }
+    }
+  }
+}
