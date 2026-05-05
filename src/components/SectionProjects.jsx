@@ -40,11 +40,7 @@ const SectionProjects = () => {
             </div>
           </a>
           <a
-<<<<<<< HEAD
             href="https://healthcare-app-five.vercel.app/"
-=======
-            href="https://ogme.store/"
->>>>>>> 916359ce0e0e6dd61b6d81e11db7507547b8ed93
             target="_blank"
             rel="noopener noreferrer"
           >
