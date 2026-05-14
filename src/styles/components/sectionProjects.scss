@@ -1,9 +1,11 @@
 .projects-section {
   position: relative;
   .projects-title {
-    height: 5rem;
+    padding-block: 2rem;
+    height: 12rem;
     position: absolute;
-    top: 14%;
+    // top: 14%;
+    align-content: end;
     background-image: linear-gradient(90deg, #ff0000, #0713f2);
     background-clip: text;
     color: transparent;

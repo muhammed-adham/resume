@@ -1,10 +1,23 @@
 import React, { useEffect } from "react";
 
 const SectionAbout = () => {
-    // flashlight cursor
-    useEffect(() => {
-      // Add event listener for mouse movement
-      window.addEventListener("mousemove", (event) => {
+  // flashlight cursor
+  useEffect(() => {
+    // Add event listener for mouse movement
+    window.addEventListener("mousemove", (event) => {
+      // Update cursor position based on mouse coordinates
+      document.documentElement.style.setProperty(
+        "--pointerX",
+        event.clientX + "px"
+      );
+      document.documentElement.style.setProperty(
+        "--pointerY",
+        event.clientY + "px"
+      );
+    });
+    // Cleanup function to remove the event listener on unmount
+    return () => {
+      window.removeEventListener("mousemove", (event) => {
         // Update cursor position based on mouse coordinates
         document.documentElement.style.setProperty(
           "--pointerX",
@@ -15,21 +28,8 @@ const SectionAbout = () => {
           event.clientY + "px"
         );
       });
-      // Cleanup function to remove the event listener on unmount
-      return () => {
-        window.removeEventListener("mousemove", (event) => {
-          // Update cursor position based on mouse coordinates
-          document.documentElement.style.setProperty(
-            "--pointerX",
-            event.clientX + "px"
-          );
-          document.documentElement.style.setProperty(
-            "--pointerY",
-            event.clientY + "px"
-          );
-        });
-      };
-    }, []);
+    };
+  }, []);
 
   return (
     <>
@@ -38,14 +38,17 @@ const SectionAbout = () => {
       >
         <div className="content-container">
           <h1 className="hidden">
-            Turing <span>vision into reality </span>with code and design
+            <span>Turing vision into reality </span>
+            <br />
+            with code and design
           </h1>
-          <p className="hidden">
-            As a skilled full-stack developer and UX-UI designer,, I am
-            dedicated to turning ideas into innovative web applications,
-            <br /> Explore my latest projects and articles, showcasing my
-            expertise in React.js and web development{" "}
-          </p>
+{/*           <p>
+            Full-stack developer and UI/UX designer focused on building
+            innovative, scalable web applications.
+            <br />
+            Explore my projects and articles showcasing expertise in React
+            and modern web development.
+          </p> */}
         </div>
       </section>
     </>

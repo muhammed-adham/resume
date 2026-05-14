@@ -15,7 +15,7 @@ const Header = () => {
             <IoLogoGithub />
           </a>
           <a
-            href="https://www.linkedin.com/in/muhammed-adham-243414194?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BdvgU%2BBKXScSTUymxtLN8wQ%3D%3D"
+            href="https://www.linkedin.com/in/muhammed-adham-a7b9423b9/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B91zQriImT02KPdgnMcHN%2BQ%3D%3D"
             target="_blank"
             rel="noopener noreferrer"
           >

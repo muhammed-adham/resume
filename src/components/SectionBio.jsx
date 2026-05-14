@@ -14,7 +14,7 @@ const SectionBio = () => {
               Narratives into <span>Art.</span>
             </h1>
             <p className="hidden">
-              1 years ago, I began freelancing as a developer. Since then, I
+              7 years ago, I began freelancing as a developer. Since then, I
               have done remote work for agencies, consulted for startups, and
               collaborated on digital products for business and consumer use.
             </p>
@@ -23,7 +23,7 @@ const SectionBio = () => {
             <div className="counter experience">
               <CountUp
                 start={0}
-                end={1}
+                end={5}
                 duration={1}
                 redraw
                 delay={0.7}
@@ -36,7 +36,7 @@ const SectionBio = () => {
             <div className="counter projects">
               <CountUp
                 start={0}
-                end={10}
+                end={12}
                 duration={1}
                 redraw
                 delay={0.7}
@@ -49,7 +49,7 @@ const SectionBio = () => {
             <div className="counter clients">
               <CountUp
                 start={0}
-                end={7}
+                end={12}
                 duration={1}
                 redraw
                 delay={0.7}

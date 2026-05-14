@@ -55,9 +55,9 @@ const SectionProjects = () => {
                 <FaNodeJs />
               </div>
               <div className="pic">
-                <img src="/ogme.png" alt="" />
+                <img src="/health.png" alt="" />
               </div>
-              <div className="title">E-commerce web app.</div>
+              <div className="title">Healthcare web app.</div>
               <div className="desc">
                 Crafting a responsive web app with React.js, Node.js
               </div>
